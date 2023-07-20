@@ -1,11 +1,14 @@
 import React from "react";
 import Register from "./Register";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <main className="App">
-      <Register />
-    </main>
+    <Router>
+      <main className="App">
+        <Register />
+      </main>
+    </Router>
   );
 }
 
